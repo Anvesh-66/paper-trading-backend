@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Testcontroller {
+public class Healthcontroller {
 
-    @GetMapping("/test")
+    @GetMapping("/health")
     public String test(){
         return "THE backend is working";
     }
